@@ -13,7 +13,9 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 ### `npm test`
-
+<img src="src/logo192.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
