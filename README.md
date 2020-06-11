@@ -1,70 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto se encuentra desplegado en : [Github Pages](https://moggy94.github.io/gradiweb/).
 
-## Available Scripts
+# DOCUMENTACION Y DIRECTRICES
 
-In the project directory, you can run:
+En **Gradiweb** estamos comprometidos con nuestros colaboradores, por ello hemos decidido que algunos días de la semana, realizaremos actividades al aire libre, como crossfit, 
+pícnics entre otros. Sin embargo el clima en Bogotá no nos está ayudando, llueve mucho por estos días..
+Por ello hemos decidido construir una pequeña aplicación web que nos permita conocer el clima del día actual y de los próximos tres días. ¿Nos ayudas?
 
-### `npm start`
+<img 
+    src="public/guideImage.jpeg"
+    alt="Markdown Monster icon"
+    style="float: left; margin-right: 10px;" 
+/>
+&nbsp;
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Los datos de la aplicación debes consumirlos a través de la siguiente API https://openweathermap.org/current
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+2. En el banner superior debes mostrar el clima del día actual de `Bogotá`
 
-### `npm test`
-<img src="src/logo192.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. En la parte inferior en la sección  3 days forecast, debes mostrar el clima de los próximos tres días.
 
-### `npm run build`
+4. Una de las fichas de la parte derecha, debe mostrar el clima actual de
+`París - Francia` (Queremos saber como están nuestros colaboradores en esta ciudad :) )
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Los iconos del clima se deben mostrar dependiendo la respuesta de la propiedad main en el objecto weather
+    - Ex: Si recibimos "clear" -> Mostramos un sol. ☀️
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+6. Para las peticiones de la aplicación, **no puedes usar el API fetch ni axios**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+7. Para el renderizado puedes usar vanilla JS o el framework que mas te convenga para la ocasión. ;)
+7. Puedes desarrollar los estilos como lo prefieras pero si usas SASS, LESS o Stylus tendrás puntos adicionales ;)
 
-### `npm run eject`
+8. ¿Crees que podamos abrir el sitio en dispositivos móviles? no nos vendría mal un responsive desing ;)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+9. Se debe cumplir 100% con el diseño propuesto.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+10. Debes cargar tu solución en un repositorio en gitlab o github, con 
+el respectivo readme.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Criterios a evaluar
+1. Lectura y comprension de documentacion de un API
+2. Proposicion de soluciones
+3. Consumo de API'S
+5. Manejo CSS, HTML
+6. Manejo de preprocesadores
+7. Manejo de JS
+8. Manejo de GIT 
+9. Responsive design
