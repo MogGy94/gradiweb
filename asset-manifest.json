@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/gradiweb/static/css/main.3d15aeaf.chunk.css",
-    "main.js": "/gradiweb/static/js/main.638bad5f.chunk.js",
-    "main.js.map": "/gradiweb/static/js/main.638bad5f.chunk.js.map",
+    "main.css": "/gradiweb/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/gradiweb/static/js/main.538c4b75.chunk.js",
+    "main.js.map": "/gradiweb/static/js/main.538c4b75.chunk.js.map",
     "runtime-main.js": "/gradiweb/static/js/runtime-main.0be79dfe.js",
     "runtime-main.js.map": "/gradiweb/static/js/runtime-main.0be79dfe.js.map",
-    "static/js/2.e1a6f738.chunk.js": "/gradiweb/static/js/2.e1a6f738.chunk.js",
-    "static/js/2.e1a6f738.chunk.js.map": "/gradiweb/static/js/2.e1a6f738.chunk.js.map",
+    "static/js/2.dc172a32.chunk.js": "/gradiweb/static/js/2.dc172a32.chunk.js",
+    "static/js/2.dc172a32.chunk.js.map": "/gradiweb/static/js/2.dc172a32.chunk.js.map",
     "index.html": "/gradiweb/index.html",
-    "precache-manifest.f4d89ba8d443575fb382cc8711c84095.js": "/gradiweb/precache-manifest.f4d89ba8d443575fb382cc8711c84095.js",
+    "precache-manifest.78ba6ff830e3e5f4b25dbb11012531f8.js": "/gradiweb/precache-manifest.78ba6ff830e3e5f4b25dbb11012531f8.js",
     "service-worker.js": "/gradiweb/service-worker.js",
-    "static/css/main.3d15aeaf.chunk.css.map": "/gradiweb/static/css/main.3d15aeaf.chunk.css.map",
-    "static/js/2.e1a6f738.chunk.js.LICENSE.txt": "/gradiweb/static/js/2.e1a6f738.chunk.js.LICENSE.txt"
+    "static/css/main.5ecd60fb.chunk.css.map": "/gradiweb/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.dc172a32.chunk.js.LICENSE.txt": "/gradiweb/static/js/2.dc172a32.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0be79dfe.js",
-    "static/js/2.e1a6f738.chunk.js",
-    "static/css/main.3d15aeaf.chunk.css",
-    "static/js/main.638bad5f.chunk.js"
+    "static/js/2.dc172a32.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.538c4b75.chunk.js"
   ]
 }
