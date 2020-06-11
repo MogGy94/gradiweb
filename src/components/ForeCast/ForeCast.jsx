@@ -9,7 +9,7 @@ const ForeCast = (props) =>{
     
     return (
         <div style={Style.column}>
-             <h3>ForeCast Component</h3>
+             <h3>3 Days Forecast</h3>
              <ForeCastCard/>
              <ForeCastCard/>
              <ForeCastCard/>

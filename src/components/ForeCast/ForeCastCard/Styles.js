@@ -1,4 +1,8 @@
 //ForeCastCard components Styles
+const centerItems= {
+    alignItems: "center",
+    justifyContent: "center",
+}
 
 const Styles = {
    card: {
@@ -6,11 +10,10 @@ const Styles = {
         display:"flex",
         alignItems: "center",
         justifyContent: "space-between",
-        background: "#faa81399",
+        //background: "#faa81399",
         width: "100%" ,
    },
    dayIndicator:{
-        Margin:"10px", 
         display:"flex",
         flexDirection: "column",
         alignItems: "center",
@@ -19,6 +22,12 @@ const Styles = {
         width: "100%" ,
    },
    temperatureIndicator:{
+        display: "flex",
+        borderRadius: "25px",
+        ...centerItems,
+        padding: "20px",
+        
+        width: "100%",
         background: "#00000099",
    }
 }

@@ -8,7 +8,8 @@ const Styles = {
         flexDirection: "column",
         justifyContent: "space-between",
         alignItems: "center"
-    }
+    },
+   
 }
 
 export default Styles; 

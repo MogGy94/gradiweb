@@ -6,6 +6,7 @@ const center = {
     justifyContent: "center",
     borderRadius:"30px"
 }
+const imagePath = "https://www.avianca.com/content/dam/avianca_new/destinos/bog/co_bog_porquevisitar4.jpg"
 
 const Styles = {
     grid:{
@@ -27,8 +28,11 @@ const Styles = {
     
     mainDisplay:{
         gridArea: "1 / 1 / 5 / 14",
-        background: "#b6eb7a99",
-        ...center
+        //background: "#b6eb7a99",
+        ...center,
+        background: `url(${imagePath})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover"
     },
     forecast:{
         margin: "0px 0px 0px 10px",
@@ -50,7 +54,7 @@ const Styles = {
     location:{
         margin: "20px 40px 0px 0px",
         gridArea: "3 / 10 / 9 / 14",
-        background: "#17706e99",
+        //background: "#17706e99",
         ...center
     },
 

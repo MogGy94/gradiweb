@@ -10,8 +10,8 @@ const Location = (props) =>{
     
     return (
 
-        <div style={Style.grid}>
-            Location Component
+        <div style={Style.column}>
+    
             <CitiesWeatherCard/>
             <CitiesWeatherCard/>
             <AddLocationCard/>

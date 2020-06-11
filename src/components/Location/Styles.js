@@ -1,8 +1,8 @@
 const Styles = {
-    grid:{
-        display: "grid",
-        gridTemplateColumns: "1fr",
-        gridTemplateRows: "2fr 2fr 3fr",
+    column:{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between"
     }
 }
 

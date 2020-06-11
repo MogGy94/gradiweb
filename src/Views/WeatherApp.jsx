@@ -22,9 +22,13 @@ function WeatherApp() {
 
   return (
     <div  style={test.grid}>
+      
+       {/* 
+        uncoment to see guide grid  
         <div style={Styles.grid} className="appContainer">
           {Items()}
-        </div>
+        </div> 
+        */}
       <div style={Styles.grid} className="appContainer">
         <section  style={Styles.mainDisplay} className="mainDisplay">
           <MainDisplay/>          

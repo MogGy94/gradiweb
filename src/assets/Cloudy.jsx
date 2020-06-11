@@ -2,10 +2,9 @@ import React ,{memo} from 'react';
 
 const Cloud = (props) =>{
     var {color,scale} = props
-    var w = 30 //* rate ;
-    var h = 30 //* rate; 
-    var r = 6;
-    var s_W = 5;
+    var w = 22 //* rate ;
+    var h = 15 //* rate; 
+   
     return(
         <svg 
             fill={color}
@@ -13,9 +12,9 @@ const Cloud = (props) =>{
             id="Layer_1" 
             xmlns="http://www.w3.org/2000/svg" 
             x="0px" y="0px"
-            viewBox="0 0 30 30" 
+           
             width={`${w * scale}px`} height={`${h * scale}px`}
-            viewBox={`0 0 ${w} ${h}`} 
+            viewBox={`4 7 ${w} ${h}`} 
             >
         <path d="M4.61,16.88c0-1.15,0.36-2.17,1.08-3.07c0.72-0.9,1.63-1.48,2.74-1.73c0.31-1.37,1.02-2.49,2.11-3.37s2.35-1.32,3.76-1.32
             c1.38,0,2.61,0.43,3.69,1.28s1.78,1.95,2.1,3.29h0.33c0.9,0,1.73,0.22,2.49,0.65s1.37,1.03,1.81,1.79c0.44,0.76,0.67,1.58,0.67,2.48
